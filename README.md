@@ -319,7 +319,7 @@ function a:Window(w)
         W.Name = "ToggleStatus"
         W.Parent = U
         W.AnchorPoint = Vector2.new(0, 0.5)
-        W.BackgroundColor3 = S and Color3.fromRGB(14, 255, 110) or Color3.fromRGB(255, 44, 44)
+        W.BackgroundColor3 = S and Color3.fromRGB(0, 127, 211) or Color3.fromRGB(255, 44, 44)
         W.BorderSizePixel = 0
         W.Position = UDim2.new(0.847443342, 0, 0.5, 0)
         W.Size = UDim2.new(0, 24, 0, 24)
@@ -355,7 +355,7 @@ function a:Window(w)
                         b.TweenService:Create(
                             W,
                             TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                            {BackgroundColor3 = T[R] and Color3.fromRGB(14, 255, 110) or Color3.fromRGB(255, 44, 44)}
+                            {BackgroundColor3 = T[R] and Color3.fromRGB(0, 127, 211) or Color3.fromRGB(255, 44, 44)}
                         ):Play()
                     end
                 )
@@ -386,13 +386,13 @@ function a:Window(w)
         local aa = Instance.new("TextLabel")
         a4.Name = "SliderObj"
         a4.Parent = E
-        a4.BackgroundColor3 = Color3.fromRGB(38,38,38)
+        a4.BackgroundColor3 = Color3.fromRGB(0, 154, 255)
         a4.BorderSizePixel = 0
         a4.Position = UDim2.new(0, 0, 0.0172413792, 0)
         a4.Size = UDim2.new(0, 203, 0, 36)
         a5.Name = "SliderText"
         a5.Parent = a4
-        a5.BackgroundColor3 = Color3.fromRGB(38,38,38)
+        a5.BackgroundColor3 = Color3.fromRGB(0, 154, 255)
         a5.BackgroundTransparency = 1.000
         a5.BorderSizePixel = 0
         a5.Size = UDim2.new(0, 203, 0, 36)
@@ -403,7 +403,7 @@ function a:Window(w)
         a5.TextXAlignment = Enum.TextXAlignment.Left
         a6.Name = "SliderBack"
         a6.Parent = a4
-        a6.BackgroundColor3 = Color3.fromRGB(38,38,38)
+        a6.BackgroundColor3 = Color3.fromRGB(0, 154, 255)
         a6.BorderSizePixel = 0
         a6.Position = UDim2.new(0.57099998, 0, 0.680000007, 0)
         a6.Size = UDim2.new(0, 80, 0, 7)
@@ -412,7 +412,7 @@ function a:Window(w)
         a7.Parent = a6
         a8.Name = "SliderPart"
         a8.Parent = a6
-        a8.BackgroundColor3 = Color3.fromRGB(38,38,38)
+        a8.BackgroundColor3 = Color3.fromRGB(0, 154, 255)
         a8.BorderSizePixel = 0
         a8.Size = UDim2.new((S or 0) / a2, 0, 1, 0)
         a9.CornerRadius = UDim.new(0, 4)
@@ -420,7 +420,7 @@ function a:Window(w)
         a9.Parent = a8
         aa.Name = "SliderValue"
         aa.Parent = a4
-        aa.BackgroundColor3 = Color3.fromRGB(38,38,38)
+        aa.BackgroundColor3 = Color3.fromRGB(0, 154, 255)
         aa.BackgroundTransparency = 1.000
         aa.BorderSizePixel = 0
         aa.Position = UDim2.new(0.571428597, 0, 0.166666672, 0)
